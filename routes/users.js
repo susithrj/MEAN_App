@@ -25,17 +25,17 @@ router.post("/login", function (req, res) {
     const email = req.body.email;
     const password = req.body.password;
 
-    User.findByEmail(email,function (err, user) {
-        if(err) throw err;
+    User.findByEmail(email, function (err, user) {
+        if (err) throw err;
 
-        if(!user){
-            res.json({state:false,msg:"user not found"})
+        if (!user) {
+            res.json({state: false, msg: "user not found"})
         }
 
-        User.passwordCheck(password,user.password,function (err,match) {
+        User.passwordCheck(password, user.password, function (err, match) {
             if (err) throw err;
 
-            if(match){
+            if (match) {
                 console.log("email,pass,combination worked");
             }
         })

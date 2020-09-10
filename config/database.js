@@ -1,2 +1,8 @@
 
-module.exports = {"database":"mongodb://localhost:27017/meanapp"};
+module.exports =
+    {
+        "database":"mongodb://localhost:27017/meanapp",
+        "secret":"myapplicationsecretkey"
+    };
+
+

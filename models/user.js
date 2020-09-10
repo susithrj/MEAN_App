@@ -43,3 +43,7 @@ module.exports.passwordCheck = function (plainPassword, hash, callback) {
     });
 
 }
+module.exports.findUserbyId = function (id,callback) {
+    User.findOne(id,callback);
+    
+}
