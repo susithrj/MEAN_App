@@ -1,6 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const User = require('../models/user')
+const jwt = require('jsonwebtoken');
+const config = require('../config/database');
 
 router.post("/register", function (req, res) {
 
@@ -37,6 +39,19 @@ router.post("/login", function (req, res) {
 
             if (match) {
                 console.log("email,pass,combination worked");
+                const token = jwt.sign({user}, config.secret, {expiresIn: 86400});
+                res.json(
+                    {
+                        state: true,
+                        token: "JWT" + token,
+                        user: {
+                            id: user._id,
+                            name: user.name,
+                            username: user.username,
+                            email: user.email
+                        }
+                    }
+                )
             }
         })
 
