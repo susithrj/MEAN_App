@@ -21,8 +21,21 @@ router.post("/register", function (req, res) {
 
 })
 
-router.get("", function (req, res) {
-    res.send("hello users from users.js");
+router.post("/login", function (req, res) {
+    const email = req.body.email;
+    const password = req.body.password;
+
+    User.findByEmail(email,function (err, user) {
+        if(err) throw err;
+
+        if(!user){
+            res.json({state:false,msg:"user not found"})
+        }
+        console.log(password +"user.p"+ user.password)
+        User.passwordCheck(password,user.password,function (err,match) {
+        })
+
+    })
 })
 
 module.exports = router;
