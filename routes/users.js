@@ -31,8 +31,13 @@ router.post("/login", function (req, res) {
         if(!user){
             res.json({state:false,msg:"user not found"})
         }
-        console.log(password +"user.p"+ user.password)
+
         User.passwordCheck(password,user.password,function (err,match) {
+            if (err) throw err;
+
+            if(match){
+                console.log("email,pass,combination worked");
+            }
         })
 
     })

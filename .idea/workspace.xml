@@ -5,7 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04f1dba8-4d5c-40cc-91e1-49990bc3f9ea" name="Default Changelist" comment="bcrypt encrypted.">
+    <list default="true" id="04f1dba8-4d5c-40cc-91e1-49990bc3f9ea" name="Default Changelist" comment="bcrypt hash issue fixed.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
@@ -53,7 +53,7 @@
       <workItem from="1599394118028" duration="3169000" />
       <workItem from="1599416488898" duration="3324000" />
       <workItem from="1599460382174" duration="4915000" />
-      <workItem from="1599746528818" duration="5858000" />
+      <workItem from="1599746528818" duration="7778000" />
     </task>
     <task id="LOCAL-00001" summary="user routes created.">
       <created>1599407696329</created>
@@ -90,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599473121143</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="bcrypt hash issue fixed.">
+      <created>1599758822586</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599758822586</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +121,7 @@
     <MESSAGE value="connect mongodb." />
     <MESSAGE value="bodyparser included." />
     <MESSAGE value="bcrypt encrypted." />
-    <option name="LAST_COMMIT_MESSAGE" value="bcrypt encrypted." />
+    <MESSAGE value="bcrypt hash issue fixed." />
+    <option name="LAST_COMMIT_MESSAGE" value="bcrypt hash issue fixed." />
   </component>
 </project>
