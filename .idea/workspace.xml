@@ -5,10 +5,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04f1dba8-4d5c-40cc-91e1-49990bc3f9ea" name="Default Changelist" comment="passport.js initiated.">
+    <list default="true" id="04f1dba8-4d5c-40cc-91e1-49990bc3f9ea" name="Default Changelist" comment="jwt integration with match.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +52,8 @@
       <workItem from="1599394118028" duration="3169000" />
       <workItem from="1599416488898" duration="3324000" />
       <workItem from="1599460382174" duration="4915000" />
-      <workItem from="1599746528818" duration="12211000" />
+      <workItem from="1599746528818" duration="12912000" />
+      <workItem from="1599798327310" duration="820000" />
     </task>
     <task id="LOCAL-00001" summary="user routes created.">
       <created>1599407696329</created>
@@ -112,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599763743009</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="jwt integration with match.">
+      <created>1599769429048</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1599769429048</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +145,7 @@
     <MESSAGE value="bcrypt hash issue fixed." />
     <MESSAGE value="Hash matching completed." />
     <MESSAGE value="passport.js initiated." />
-    <option name="LAST_COMMIT_MESSAGE" value="passport.js initiated." />
+    <MESSAGE value="jwt integration with match." />
+    <option name="LAST_COMMIT_MESSAGE" value="jwt integration with match." />
   </component>
 </project>
