@@ -5,8 +5,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04f1dba8-4d5c-40cc-91e1-49990bc3f9ea" name="Default Changelist" comment="jwt integration with match.">
+    <list default="true" id="04f1dba8-4d5c-40cc-91e1-49990bc3f9ea" name="Default Changelist" comment="profile route created.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/passport.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/passport.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +56,7 @@
       <workItem from="1599416488898" duration="3324000" />
       <workItem from="1599460382174" duration="4915000" />
       <workItem from="1599746528818" duration="12912000" />
-      <workItem from="1599798327310" duration="820000" />
+      <workItem from="1599798327310" duration="12188000" />
     </task>
     <task id="LOCAL-00001" summary="user routes created.">
       <created>1599407696329</created>
@@ -118,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599769429048</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="profile route created.">
+      <created>1599799168200</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599799168200</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +156,29 @@
     <MESSAGE value="Hash matching completed." />
     <MESSAGE value="passport.js initiated." />
     <MESSAGE value="jwt integration with match." />
-    <option name="LAST_COMMIT_MESSAGE" value="jwt integration with match." />
+    <MESSAGE value="profile route created." />
+    <option name="LAST_COMMIT_MESSAGE" value="profile route created." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1599835605289">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.121.1600.860@0.0.1536.824" timestamp="1599835605289" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1599835605289">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.121.1600.860@0.0.1536.824" timestamp="1599835605289" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1599835605289">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.121.1600.860@0.0.1536.824" timestamp="1599835605289" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1599835605289">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.121.1600.860@0.0.1536.824" timestamp="1599835605289" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599840562859">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824/1920.121.1600.860@0.0.1536.824" timestamp="1599840562859" />
   </component>
 </project>
